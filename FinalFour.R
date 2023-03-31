@@ -5,15 +5,12 @@ library(gsheet)
 library(gt)
 rm(list = ls())
 
-setwd("/Users/jeremydumalig/Downloads/March\ Madness")
+setwd("/Users/jeremydumalig/Documents/GitHub/MarchMadness")
 
 mbb <- read_csv("ncaa_sweet16_mbb_logs.csv")
 wbb <- read_csv("ncaa_sweet16_wbb_logs.csv")
 
-current <- 
-  mbb %>%
-  mutate(`3PA%` = 100 * `3PA` / FGA,
-         `OPP 3PA%` = 100 * `OPP 3PA` / `OPP FGA`)
+current <- mbb
 subtitle <- "NCAA Men's Basketball Tournament 2023 | Final Four"
 
 my_theme <- 
