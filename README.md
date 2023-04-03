@@ -2,7 +2,7 @@
 
 *This project visualizes basic advanced stats for the Final Four teams in the Men's and Women's 2023 March Madness Tournment, and the graphs can be found [here](https://jeremydumalig.com/march-madness/)*
 
-*Packages/Libraries Used : pandas, ipywidgets, BeautifulSoup, selenium, tidyverse, ggplot, gt, *
+*Packages/Libraries Used : pandas, ipywidgets, BeautifulSoup, selenium, tidyverse, ggplot, gt*
 
 <br>
 
