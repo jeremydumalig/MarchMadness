@@ -10,8 +10,8 @@ setwd("/Users/jeremydumalig/Documents/GitHub/MarchMadness")
 mbb <- read_csv("ncaa_sweet16_mbb_logs.csv")
 wbb <- read_csv("ncaa_sweet16_wbb_logs.csv")
 
-current <- mbb
-subtitle <- "NCAA Men's Basketball Tournament 2023 | Final Four"
+current <- wbb
+subtitle <- "NCAA Women's Basketball Tournament 2023 | Final Four"
 
 my_theme <- 
   theme_linedraw() +
