@@ -10,8 +10,8 @@ setwd("/Users/jeremydumalig/Documents/GitHub/MarchMadness")
 mbb <- read_csv("ncaa_sweet16_mbb_logs.csv")
 wbb <- read_csv("ncaa_sweet16_wbb_logs.csv")
 
-current <- wbb
-subtitle <- "NCAA Women's Basketball Tournament 2023 | Final Four"
+current <- mbb
+subtitle <- "NCAA Men's Basketball Tournament 2023 | Final Four"
 
 my_theme <- 
   theme_linedraw() +
@@ -126,7 +126,7 @@ rebounding <-
   labs(title="Who are the best/worst rebounding teams?",
        subtitle=subtitle,
        x="Offensive Rebound Rate (ORB%)",
-       y="Defensive Rebound Rate (DRB%") +
+       y="Defensive Rebound Rate (DRB%)") +
   my_theme
 
 turnovers <-
